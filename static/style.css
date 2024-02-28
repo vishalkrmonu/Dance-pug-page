@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital@1&display=swap');
+
+*{
+     margin: 0;
+     box-sizing: border-box;
+     padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -13px 14px;
+    font-size: 18px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 39px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: rgb(218 82 15);
+    padding: 13px 0px;
+    /* font-family: 'Anton', sans-serif; */
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;  /*for vertical center*/
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+#navbar li a:hover{
+color: black;
+}
+
+#introSection{
+    padding-bottom: 40px;
+    font-size: 35px;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bg.webp");
+height: 400px;
+background-color: red;
+}
+
+#introSection div.small{
+font-size: 27px    ;
+}
+#MissionSection{
+height: 300px;
+width: 75%;
+margin: auto;
+}
+#MissionSection h2{
+    /* font-size: 41px; */
+    text-align: center;
+    padding-top: 13px ;
+    font-family: 'Archivo', sans-serif;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 18px 13px;
+    height: 206px;
+    background-color: rgb(214, 216, 218);
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Archivo', sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 111px;
+    /* padding: 0 14px; */
+    margin: 0px 0px;
+}
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 0px;
+}
+.card-content p{
+    font-size: 19px;
+}
+#sponsorsSection{
+    height: 200px;
+    background-color: rgb(237, 213, 207);
+}
+
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 13px ;
+    font-family: 'Archivo', sans-serif;
+}
+
+#sponsors{
+    height: 140px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+#footer {
+    color: white;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Archivo', sans-serif;
+
+
+}

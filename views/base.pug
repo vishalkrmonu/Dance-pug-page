@@ -1,0 +1,24 @@
+//- https://pugjs.org/api/getting-started.html
+//- https://pugjs.org/language/inheritance.html
+
+//- layout.pug
+doctype html
+html
+  head
+    title Vishal Dance Academy
+    //- block scripts
+    block style
+  body
+    nav#navbar 
+     ul 
+         div#logo
+              img(src="/static/img/d2.png")
+              | HDA 
+         li #[a(href="/") About]
+         li #[a(href="/") Home ]
+         li #[a(href="/") Services]
+         li #[a(href="/") Class info]
+         li #[a(href="/contact") Contact us]
+    block content
+    footer#footer 
+        |   Copyright © 2023 VishalDanceAcademy.com | All rights reversed           
